@@ -201,7 +201,7 @@ define(requires, function (messagesTpl, recentTpl, conversationTpl, contactTpl, 
             var conversationArea = $('.path-messages .conversation .conversation-area');
 
             // Height of the conversation area.
-            conversationArea.css('height', $(document).innerHeight() - headerHeight - inputHeight - 100);
+            conversationArea.css('height', $(document).innerHeight() - headerHeight - inputHeight - 120);
             conversationArea.css('width', $("#panel-right").width());
             // Scroll bottom.
             conversationArea.scrollTop(conversationArea.prop("scrollHeight"));
